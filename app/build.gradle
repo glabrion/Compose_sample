@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'ru.glabrion.composesample'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "ru.glabrion.composesample"
         minSdk 28
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -37,7 +37,7 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.6"
+        kotlinCompilerExtensionVersion = "1.4.8"
     }
     packagingOptions {
         resources {
